@@ -1,20 +1,20 @@
-/* 엔원노트 랜딩 / 정책 페이지 공통 스타일 — 앱 톤과 같은 핑크 / 라운드 / 깔끔. */
+/* 엔투노트 랜딩 / 정책 페이지 공통 스타일 — 앱 톤과 같은 핑크 / 라운드 / 깔끔. */
 
 :root {
-  --pink-50: #FDF2F8;
-  --pink-100: #FCE7F3;
-  --pink-200: #FBCFE8;
-  --pink-300: #F9A8D4;
-  --pink-400: #F472B6;
-  --pink-500: #EC4899;
-  --pink-600: #DB2777;
-  --pink-700: #BE185D;
-  --pink-800: #9D174D;
+  --pink-50: #FFF7ED;
+  --pink-100: #FFEDD5;
+  --pink-200: #FED7AA;
+  --pink-300: #FDBA74;
+  --pink-400: #FB923C;
+  --pink-500: #F97316;
+  --pink-600: #EA580C;
+  --pink-700: #9A3412;
+  --pink-800: #7C2D12;
   --ink: #111827;
   --ink-2: #1F2937;
   --muted: #6B7280;
-  --border: #FCE7F3;
-  --bg: #FFFAFB;
+  --border: #FFEDD5;
+  --bg: #FFFBF5;
 }
 
 * { box-sizing: border-box; }
@@ -97,12 +97,12 @@ a:hover { text-decoration: underline; }
 }
 .hero::before {
   width: 360px; height: 360px;
-  background: #FFB3CF;
+  background: #FFCC99;
   top: -100px; left: -80px;
 }
 .hero::after {
   width: 320px; height: 320px;
-  background: #FF3D85;
+  background: #FF8C42;
   bottom: -120px; right: -60px;
 }
 .hero-content {

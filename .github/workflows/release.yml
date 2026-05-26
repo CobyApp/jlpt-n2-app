@@ -6,11 +6,15 @@ on:
   workflow_dispatch:
 
 env:
-  FLUTTER_VERSION: '3.35.7'
+  FLUTTER_VERSION: '3.44.0'
   # CI 가 빌드할 때마다 단조 증가하는 build number. TestFlight / Play 가 같은
   # number 를 두 번 받아주지 않으므로 매번 새 값이 필요. GITHUB_RUN_NUMBER 는
   # repo 차원에서 단조 증가하므로 충돌 없음.
   BUILD_NUMBER: ${{ github.run_number }}
+  # N2 의 App Store / Play Console 셋업 끝나면 'true' 로 바꿔 자동 업로드.
+  # 그 전까지는 .aab/.ipa 만 빌드해 Actions artifact 로 받음.
+  ENABLE_PLAY_UPLOAD: 'false'
+  ENABLE_TESTFLIGHT_UPLOAD: 'false'
 
 jobs:
   android:
@@ -53,6 +57,7 @@ jobs:
             --build-number=$BUILD_NUMBER
 
       - name: Upload to Play Internal Testing
+        if: ${{ env.ENABLE_PLAY_UPLOAD == 'true' }}
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
@@ -152,6 +157,7 @@ jobs:
             --export-options-plist=ios/ExportOptions.plist
 
       - name: Upload to TestFlight
+        if: ${{ env.ENABLE_TESTFLIGHT_UPLOAD == 'true' }}
         env:
           APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
           APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
