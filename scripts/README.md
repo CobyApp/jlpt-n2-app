@@ -1,6 +1,12 @@
-# scripts/
+# scripts/ — N2 데이터 수집 파이프라인
 
-N2 컨텐츠 크롤링/처리 스크립트.
+N1 의 `jlpt/scripts/` (다른 레포) 와 같은 흐름:
+1. nihonez.com 페이지에서 reading 문제 + listening 메타 추출
+2. listening admin-ajax 호출로 정답/스크립트 받음
+3. mp3 다운로드
+4. (선택) Whisper 로 listening script 재생성
+5. 한국어 해설 작성
+6. `assets/data/index.json` 빌드
 
 ## 의존성
 
@@ -8,21 +14,36 @@ N2 컨텐츠 크롤링/처리 스크립트.
 pip install requests beautifulsoup4 lxml
 ```
 
-## 실행 순서
+## 실행
 
-1. **`scrape-n2.py`** — nihonez.com 에서 reading 문제 + listening URL 수집 →
-   `assets/data/exams/n2_*.json` 생성
-2. **음원 다운로드** — listening 의 `audio_url` 을 `assets/audio/n2_*/` 로 받음
-3. **transcribe** (옵션) — Whisper 로 listening script 생성
-4. **한국어 해설 작성** — 사람이 직접 또는 LLM 으로
+```bash
+# 11회차 전체
+python3 scripts/scrape-n2.py
+
+# 특정 회차만
+python3 scripts/scrape-n2.py n2_2025-07
+```
 
 ## 현재 상태
 
-`scrape-n2.py` 는 URL 목록과 스켈레톤만 작성. 실제 nihonez N2 페이지의 DOM
-selector 를 분석해서 `parse_exam` 의 TODO 부분을 채워야 함. N1 의
-`/Users/doyoung_kim/Documents/Git/jlpt/scripts/` 에 있는 패턴 참고.
+✅ URL 11개 목록 + admin-ajax 호출 코드 (N1 scrape-listening.py 와 동일 패턴)
+❌ `parse_reading()` 안 — reading 문제 selector 미구현 (TODO)
+❌ listening 부분도 미구현 (jlpt 레포의 scripts/scrape-listening.py 의
+   parse_listening_page 함수 가져와서 N2 에 맞게 어댑트 필요)
+❌ Whisper transcribe — N1 의 transcribe-listening.py 참고
+❌ 한국어 해설 ~700개 작성
 
-## index.json 갱신
+## 다음 작업 단계
 
-크롤링된 exam JSON 이 추가되면 `assets/data/index.json` 도 다시 빌드해야 함
-(exam 메타데이터 + category_totals). N1 의 `sync-data.mjs` 패턴 사용.
+1. `parse_reading()` 채우기:
+   - 페이지 DOM 또는 `testData` JS 변수 분석
+   - 각 subsection 의 question 배열 → `Question[]` 변환
+   - passage 별도 dict 로 분리
+2. listening 부분 통합:
+   - jlpt 레포의 scrape-listening.py 복사 후 N2 URL 로 어댑트
+   - mp3 다운로드 경로: `assets/audio/n2_<id>/<mondai-type>.mp3`
+3. 한국어 해설:
+   - 영어 explanation_en 을 한국어로 번역 (LLM)
+   - 정답/핵심 이유/오답 분석 블록 단위로 구조화
+4. `assets/data/index.json` 빌드:
+   - 각 exam 의 questions/listening 카운트 + category_totals 집계
