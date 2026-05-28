@@ -26,6 +26,8 @@ class CategoryDef {
 
 const List<CategoryDef> allCategories = [
   CategoryDef(slug: 'kanji-reading', category: 'Kanji Reading', group: CategoryGroup.vocab),
+  CategoryDef(slug: 'orthography', category: 'Orthography', group: CategoryGroup.vocab),
+  CategoryDef(slug: 'word-formation', category: 'Word Formation', group: CategoryGroup.vocab),
   CategoryDef(slug: 'contextual', category: 'Contextually-defined Expressions', group: CategoryGroup.vocab),
   CategoryDef(slug: 'paraphrases', category: 'Paraphrases', group: CategoryGroup.vocab),
   CategoryDef(slug: 'usage', category: 'Usage', group: CategoryGroup.vocab),
@@ -34,7 +36,6 @@ const List<CategoryDef> allCategories = [
   CategoryDef(slug: 'text-grammar', category: 'Text Grammar', group: CategoryGroup.grammar),
   CategoryDef(slug: 'short-passage', category: 'Comprehension (Short passages)', group: CategoryGroup.reading),
   CategoryDef(slug: 'mid-passage', category: 'Comprehension (Mid-size passages)', group: CategoryGroup.reading),
-  CategoryDef(slug: 'long-passage', category: 'Comprehension (Long passages)', group: CategoryGroup.reading),
   CategoryDef(slug: 'integrated', category: 'Integrated Comprehension', group: CategoryGroup.reading),
   CategoryDef(slug: 'thematic', category: 'Thematic Comprehension', group: CategoryGroup.reading),
   CategoryDef(slug: 'info-retrieval', category: 'Information Retrieval', group: CategoryGroup.reading),
@@ -56,6 +57,8 @@ const Set<String> listeningSlugs = {
 
 const Map<String, String> _koLabels = {
   'Kanji Reading': '한자 읽기',
+  'Orthography': '표기',
+  'Word Formation': '어형성',
   'Contextually-defined Expressions': '문맥 규정',
   'Paraphrases': '유의 표현',
   'Usage': '용법',
@@ -64,7 +67,6 @@ const Map<String, String> _koLabels = {
   'Text Grammar': '글의 문법',
   'Comprehension (Short passages)': '단문 독해',
   'Comprehension (Mid-size passages)': '중간 길이 독해',
-  'Comprehension (Long passages)': '장문 독해',
   'Integrated Comprehension': '통합 이해',
   'Thematic Comprehension': '주장 이해',
   'Information Retrieval': '정보 검색',
