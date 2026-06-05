@@ -230,7 +230,7 @@
       "category": "Word Formation",
       "expl": "Correct Answer\nAnswer 3 is correct. It means 「教育論」 = *education theory*.\n\nQuestion Translation\n「教師たちの間で、新たな教育（　　　）が注目されている。」\n→ “Among teachers, a new approach/theory in education is attracting attention.”\n\nExplanation\nThe noun that naturally forms with 教育 to mean a set of ideas is **教育論** (*educational theory/discourse*).\n\nWhy Other Options Are Incorrect\n1. 則 — “rule/principle” → **教育則** is not common; would be 規則/原則.\n2. 理 — “reason/principle” → **教育理** is unnatural; **教育理念** or **理論** are used.\n4. 規 — “regulation” → **教育規** is not a standard compound (教育規程なら可).",
       "expl_ko": "정답: 3 「論」 — 「教育論」(きょういくろん) 교육론\n\n근거: 「教育＋論」으로 '교육에 관한 이론·견해'를 의미하는 「教育論」이 만들어집니다. 본문 「教師たちの間で、新たな教育論が注目されている」(교사들 사이에서 새로운 교육론이 주목받고 있다)에 자연스럽습니다.\n\n오답:\n· 1 「則」 — '규칙'의 뜻으로 「教育則」은 쓰지 않음.\n· 2 「理」 — '이치'의 뜻이며 「教育理」는 단어가 아님.\n· 4 「規」 — '규칙·규정'이며 「教育規」는 단어가 아님.\n\n포인트: 접미사 「~論」은 학문적 논의·견해를 의미(進化論·人生論·組織論). 「~理」「~則」「~規」와의 차이를 익혀두면 어휘 형성 문제에 강해집니다.",
-      "stem_u": ""
+      "stem_u": "教育"
     },
     {
       "n": 12,
@@ -247,7 +247,7 @@
       "category": "Word Formation",
       "expl": "Correct Answer\nAnswer 1 is correct. It means 「食べづらい」 = *hard to eat*.\n\nQuestion Translation\n「この魚は骨が多くて食べ（　　　）。」\n→ “This fish has many bones and is hard to eat.”\n\nExplanation\nVerb stem + **づらい** expresses *difficulty in doing* something.\n\nWhy Other Options Are Incorrect\n2. いたい — “painful.” → Not a suffix pattern here.\n3. おそい — “slow/late.” → Doesn’t fit the construction.\n4. ぐるしい — Misspelling/non-word; intended **くるしい** “painful,” still incorrect.",
       "expl_ko": "정답: 1 「づらい」 — 食べづらい(먹기 힘들다)\n\n근거: 동사 ます형+「づらい」는 '~하기 힘들다·괴롭다'의 의미입니다. 본문 「この魚は骨が多くて食べづらい」(이 생선은 가시가 많아 먹기 힘들다)에 자연스럽게 어울립니다.\n\n오답:\n· 2 「いたい」 — '아프다'는 형용사로 동사 뒤에 접속하는 접미사가 아님.\n· 3 「おそい」 — '늦다'로 구조도 의미도 맞지 않음.\n· 4 「ぐるしい」 — 「苦しい(くるしい)」와 비슷하나 동사 ます형 뒤 접미사로는 「~苦しい(ぐるしい)」는 「寝苦しい·見苦しい」 등 한정적이며 '먹기'와는 호응 어색.\n\n포인트: 「~づらい」(심리·신체적 거부감), 「~にくい」(객관적 어려움), 「~がたい」(거의 불가능)을 비교 정리하세요.",
-      "stem_u": ""
+      "stem_u": "食べ"
     },
     {
       "n": 13,
