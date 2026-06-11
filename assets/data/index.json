@@ -147,6 +147,11 @@
     "Comprehension (Mid-size passages)": 100,
     "Integrated Comprehension": 24,
     "Thematic Comprehension": 36,
-    "Information Retrieval": 24
+    "Information Retrieval": 24,
+    "task-based-comprehension": 55,
+    "comprehension-of-key-points": 66,
+    "comprehension-general-outline": 55,
+    "quick-response": 121,
+    "listening-integrated-comprehension": 34
   }
 }

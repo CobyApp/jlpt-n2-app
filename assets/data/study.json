@@ -1,0 +1,281 @@
+{
+  "vocab": [
+    {
+      "theme_ko": "감정",
+      "theme_en": "Emotions",
+      "theme_zh": "情感",
+      "items": [
+        {"w": "感動", "r": "かんどう", "ko": "감동", "en": "deep emotion, being moved", "zh": "感动", "ex_ja": "彼のスピーチに感動した。", "ex_ko": "그의 연설에 감동했다.", "ex_en": "I was moved by his speech.", "ex_zh": "我被他的演讲感动了。"},
+        {"w": "後悔", "r": "こうかい", "ko": "후회", "en": "regret", "zh": "后悔", "ex_ja": "あの時の決断を後悔している。", "ex_ko": "그때의 결단을 후회하고 있다.", "ex_en": "I regret the decision I made then.", "ex_zh": "我后悔当时的决定。"},
+        {"w": "不安", "r": "ふあん", "ko": "불안", "en": "anxiety, uneasiness", "zh": "不安", "ex_ja": "試験の結果が不安だ。", "ex_ko": "시험 결과가 불안하다.", "ex_en": "I am anxious about the test results.", "ex_zh": "我对考试结果感到不安。"},
+        {"w": "怒り", "r": "いかり", "ko": "분노", "en": "anger", "zh": "愤怒", "ex_ja": "彼女は怒りを抑えられなかった。", "ex_ko": "그녀는 분노를 억누를 수 없었다.", "ex_en": "She could not suppress her anger.", "ex_zh": "她抑制不住愤怒。"},
+        {"w": "喜び", "r": "よろこび", "ko": "기쁨", "en": "joy", "zh": "喜悦", "ex_ja": "合格の知らせに喜びを感じた。", "ex_ko": "합격 소식에 기쁨을 느꼈다.", "ex_en": "I felt joy at the news of passing.", "ex_zh": "听到合格的消息我感到喜悦。"},
+        {"w": "悲しみ", "r": "かなしみ", "ko": "슬픔", "en": "sadness", "zh": "悲伤", "ex_ja": "深い悲しみに包まれた。", "ex_ko": "깊은 슬픔에 휩싸였다.", "ex_en": "I was wrapped in deep sadness.", "ex_zh": "我陷入了深深的悲伤。"},
+        {"w": "驚き", "r": "おどろき", "ko": "놀람", "en": "surprise", "zh": "惊讶", "ex_ja": "彼の発言は驚きを与えた。", "ex_ko": "그의 발언은 놀라움을 주었다.", "ex_en": "His remark caused surprise.", "ex_zh": "他的发言令人惊讶。"},
+        {"w": "恥ずかしい", "r": "はずかしい", "ko": "부끄럽다", "en": "embarrassing, shameful", "zh": "害羞", "ex_ja": "人前で歌うのは恥ずかしい。", "ex_ko": "사람들 앞에서 노래하는 것은 부끄럽다.", "ex_en": "It is embarrassing to sing in front of people.", "ex_zh": "在众人面前唱歌很害羞。"},
+        {"w": "羨ましい", "r": "うらやましい", "ko": "부럽다", "en": "envious", "zh": "羡慕", "ex_ja": "君の才能が羨ましい。", "ex_ko": "너의 재능이 부럽다.", "ex_en": "I envy your talent.", "ex_zh": "我羡慕你的才能。"},
+        {"w": "落ち着く", "r": "おちつく", "ko": "차분해지다", "en": "to calm down", "zh": "冷静", "ex_ja": "深呼吸して落ち着いた。", "ex_ko": "심호흡을 하고 차분해졌다.", "ex_en": "I took a deep breath and calmed down.", "ex_zh": "深呼吸后冷静下来了。"}
+      ]
+    },
+    {
+      "theme_ko": "사회",
+      "theme_en": "Society",
+      "theme_zh": "社会",
+      "items": [
+        {"w": "社会問題", "r": "しゃかいもんだい", "ko": "사회 문제", "en": "social issue", "zh": "社会问题", "ex_ja": "少子化は深刻な社会問題だ。", "ex_ko": "저출산은 심각한 사회 문제이다.", "ex_en": "Declining birthrate is a serious social issue.", "ex_zh": "少子化是严重的社会问题。"},
+        {"w": "格差", "r": "かくさ", "ko": "격차", "en": "gap, disparity", "zh": "差距", "ex_ja": "貧富の格差が拡大している。", "ex_ko": "빈부 격차가 확대되고 있다.", "ex_en": "The gap between rich and poor is widening.", "ex_zh": "贫富差距正在扩大。"},
+        {"w": "選挙", "r": "せんきょ", "ko": "선거", "en": "election", "zh": "选举", "ex_ja": "来月、選挙が行われる。", "ex_ko": "다음 달에 선거가 실시된다.", "ex_en": "An election will be held next month.", "ex_zh": "下个月将举行选举。"},
+        {"w": "犯罪", "r": "はんざい", "ko": "범죄", "en": "crime", "zh": "犯罪", "ex_ja": "この地域では犯罪が減少している。", "ex_ko": "이 지역에서는 범죄가 감소하고 있다.", "ex_en": "Crime is decreasing in this area.", "ex_zh": "这个地区的犯罪正在减少。"},
+        {"w": "政治", "r": "せいじ", "ko": "정치", "en": "politics", "zh": "政治", "ex_ja": "若者の政治への関心が低い。", "ex_ko": "젊은이의 정치에 대한 관심이 낮다.", "ex_en": "Young people's interest in politics is low.", "ex_zh": "年轻人对政治的关心很低。"},
+        {"w": "法律", "r": "ほうりつ", "ko": "법률", "en": "law", "zh": "法律", "ex_ja": "新しい法律が施行された。", "ex_ko": "새로운 법률이 시행되었다.", "ex_en": "A new law has been enforced.", "ex_zh": "新的法律开始实施了。"},
+        {"w": "差別", "r": "さべつ", "ko": "차별", "en": "discrimination", "zh": "歧视", "ex_ja": "差別をなくすべきだ。", "ex_ko": "차별을 없애야 한다.", "ex_en": "We should eliminate discrimination.", "ex_zh": "应该消除歧视。"},
+        {"w": "高齢化", "r": "こうれいか", "ko": "고령화", "en": "aging (of society)", "zh": "老龄化", "ex_ja": "日本は高齢化が進んでいる。", "ex_ko": "일본은 고령화가 진행되고 있다.", "ex_en": "Japan's aging is progressing.", "ex_zh": "日本的老龄化正在加剧。"},
+        {"w": "人口", "r": "じんこう", "ko": "인구", "en": "population", "zh": "人口", "ex_ja": "都市部に人口が集中している。", "ex_ko": "도시부에 인구가 집중되고 있다.", "ex_en": "Population is concentrated in urban areas.", "ex_zh": "人口集中在城市地区。"},
+        {"w": "貧困", "r": "ひんこん", "ko": "빈곤", "en": "poverty", "zh": "贫困", "ex_ja": "世界の貧困問題を考える。", "ex_ko": "세계의 빈곤 문제를 생각한다.", "ex_en": "I think about world poverty issues.", "ex_zh": "思考世界的贫困问题。"}
+      ]
+    },
+    {
+      "theme_ko": "비즈니스",
+      "theme_en": "Business",
+      "theme_zh": "商务",
+      "items": [
+        {"w": "会議", "r": "かいぎ", "ko": "회의", "en": "meeting", "zh": "会议", "ex_ja": "明日の会議に出席する。", "ex_ko": "내일 회의에 출석한다.", "ex_en": "I will attend tomorrow's meeting.", "ex_zh": "我会出席明天的会议。"},
+        {"w": "契約", "r": "けいやく", "ko": "계약", "en": "contract", "zh": "合同", "ex_ja": "新しい契約を結んだ。", "ex_ko": "새로운 계약을 맺었다.", "ex_en": "We concluded a new contract.", "ex_zh": "签订了新合同。"},
+        {"w": "営業", "r": "えいぎょう", "ko": "영업", "en": "sales, business operation", "zh": "营业", "ex_ja": "彼は営業の仕事をしている。", "ex_ko": "그는 영업 일을 하고 있다.", "ex_en": "He works in sales.", "ex_zh": "他从事营业工作。"},
+        {"w": "取引", "r": "とりひき", "ko": "거래", "en": "transaction, deal", "zh": "交易", "ex_ja": "海外との取引が増えた。", "ex_ko": "해외와의 거래가 늘었다.", "ex_en": "Transactions with overseas have increased.", "ex_zh": "与海外的交易增加了。"},
+        {"w": "出張", "r": "しゅっちょう", "ko": "출장", "en": "business trip", "zh": "出差", "ex_ja": "来週、大阪に出張する。", "ex_ko": "다음 주에 오사카로 출장 간다.", "ex_en": "I will go on a business trip to Osaka next week.", "ex_zh": "下周去大阪出差。"},
+        {"w": "業績", "r": "ぎょうせき", "ko": "업적, 실적", "en": "business performance", "zh": "业绩", "ex_ja": "今期の業績は好調だ。", "ex_ko": "이번 분기 실적은 호조이다.", "ex_en": "This quarter's performance is strong.", "ex_zh": "本期业绩良好。"},
+        {"w": "上司", "r": "じょうし", "ko": "상사", "en": "boss, superior", "zh": "上司", "ex_ja": "上司に報告した。", "ex_ko": "상사에게 보고했다.", "ex_en": "I reported to my boss.", "ex_zh": "向上司汇报了。"},
+        {"w": "部下", "r": "ぶか", "ko": "부하", "en": "subordinate", "zh": "下属", "ex_ja": "部下を指導するのは難しい。", "ex_ko": "부하를 지도하는 것은 어렵다.", "ex_en": "It is difficult to guide subordinates.", "ex_zh": "指导下属很难。"},
+        {"w": "残業", "r": "ざんぎょう", "ko": "야근", "en": "overtime work", "zh": "加班", "ex_ja": "毎日残業で疲れている。", "ex_ko": "매일 야근으로 지쳐 있다.", "ex_en": "I am tired from daily overtime.", "ex_zh": "每天加班很累。"},
+        {"w": "企画", "r": "きかく", "ko": "기획", "en": "plan, project", "zh": "策划", "ex_ja": "新しい企画を提案した。", "ex_ko": "새로운 기획을 제안했다.", "ex_en": "I proposed a new project.", "ex_zh": "提出了新的策划案。"}
+      ]
+    },
+    {
+      "theme_ko": "학교·공부",
+      "theme_en": "School & Study",
+      "theme_zh": "学校与学习",
+      "items": [
+        {"w": "授業", "r": "じゅぎょう", "ko": "수업", "en": "class, lesson", "zh": "课程", "ex_ja": "授業に遅れてしまった。", "ex_ko": "수업에 늦고 말았다.", "ex_en": "I was late for class.", "ex_zh": "上课迟到了。"},
+        {"w": "試験", "r": "しけん", "ko": "시험", "en": "exam", "zh": "考试", "ex_ja": "来週、期末試験がある。", "ex_ko": "다음 주에 기말 시험이 있다.", "ex_en": "There is a final exam next week.", "ex_zh": "下周有期末考试。"},
+        {"w": "成績", "r": "せいせき", "ko": "성적", "en": "grades, results", "zh": "成绩", "ex_ja": "成績が上がって嬉しい。", "ex_ko": "성적이 올라서 기쁘다.", "ex_en": "I'm happy my grades went up.", "ex_zh": "成绩提高了很高兴。"},
+        {"w": "宿題", "r": "しゅくだい", "ko": "숙제", "en": "homework", "zh": "作业", "ex_ja": "宿題を忘れた。", "ex_ko": "숙제를 잊어버렸다.", "ex_en": "I forgot my homework.", "ex_zh": "忘了作业。"},
+        {"w": "教科書", "r": "きょうかしょ", "ko": "교과서", "en": "textbook", "zh": "教科书", "ex_ja": "教科書を開いてください。", "ex_ko": "교과서를 펴 주세요.", "ex_en": "Please open your textbook.", "ex_zh": "请打开教科书。"},
+        {"w": "図書館", "r": "としょかん", "ko": "도서관", "en": "library", "zh": "图书馆", "ex_ja": "図書館で勉強する。", "ex_ko": "도서관에서 공부한다.", "ex_en": "I study at the library.", "ex_zh": "在图书馆学习。"},
+        {"w": "講義", "r": "こうぎ", "ko": "강의", "en": "lecture", "zh": "讲座", "ex_ja": "教授の講義は面白い。", "ex_ko": "교수님의 강의는 재미있다.", "ex_en": "The professor's lecture is interesting.", "ex_zh": "教授的讲座很有意思。"},
+        {"w": "卒業", "r": "そつぎょう", "ko": "졸업", "en": "graduation", "zh": "毕业", "ex_ja": "来年、大学を卒業する。", "ex_ko": "내년에 대학을 졸업한다.", "ex_en": "I will graduate from university next year.", "ex_zh": "明年大学毕业。"},
+        {"w": "研究", "r": "けんきゅう", "ko": "연구", "en": "research", "zh": "研究", "ex_ja": "彼は環境問題を研究している。", "ex_ko": "그는 환경 문제를 연구하고 있다.", "ex_en": "He is researching environmental issues.", "ex_zh": "他在研究环境问题。"},
+        {"w": "発表", "r": "はっぴょう", "ko": "발표", "en": "presentation, announcement", "zh": "发表", "ex_ja": "明日、発表をしなければならない。", "ex_ko": "내일 발표를 해야 한다.", "ex_en": "I have to give a presentation tomorrow.", "ex_zh": "明天必须做发表。"}
+      ]
+    },
+    {
+      "theme_ko": "여행·교통",
+      "theme_en": "Travel & Transportation",
+      "theme_zh": "旅行与交通",
+      "items": [
+        {"w": "旅行", "r": "りょこう", "ko": "여행", "en": "travel", "zh": "旅行", "ex_ja": "夏休みに旅行に行く。", "ex_ko": "여름방학에 여행을 간다.", "ex_en": "I will travel during summer vacation.", "ex_zh": "暑假去旅行。"},
+        {"w": "観光", "r": "かんこう", "ko": "관광", "en": "sightseeing", "zh": "观光", "ex_ja": "京都を観光した。", "ex_ko": "교토를 관광했다.", "ex_en": "I went sightseeing in Kyoto.", "ex_zh": "在京都观光了。"},
+        {"w": "渋滞", "r": "じゅうたい", "ko": "정체, 막힘", "en": "traffic jam", "zh": "堵车", "ex_ja": "道路が渋滞している。", "ex_ko": "도로가 정체되고 있다.", "ex_en": "The road is congested.", "ex_zh": "道路堵车了。"},
+        {"w": "乗り換え", "r": "のりかえ", "ko": "환승", "en": "transfer (transport)", "zh": "换乘", "ex_ja": "次の駅で乗り換える。", "ex_ko": "다음 역에서 환승한다.", "ex_en": "I will transfer at the next station.", "ex_zh": "在下一站换乘。"},
+        {"w": "切符", "r": "きっぷ", "ko": "표", "en": "ticket", "zh": "票", "ex_ja": "新幹線の切符を買った。", "ex_ko": "신칸센 표를 샀다.", "ex_en": "I bought a shinkansen ticket.", "ex_zh": "买了新干线的票。"},
+        {"w": "予約", "r": "よやく", "ko": "예약", "en": "reservation", "zh": "预约", "ex_ja": "ホテルを予約した。", "ex_ko": "호텔을 예약했다.", "ex_en": "I made a hotel reservation.", "ex_zh": "预订了酒店。"},
+        {"w": "出発", "r": "しゅっぱつ", "ko": "출발", "en": "departure", "zh": "出发", "ex_ja": "朝早く出発した。", "ex_ko": "아침 일찍 출발했다.", "ex_en": "I departed early in the morning.", "ex_zh": "一大早就出发了。"},
+        {"w": "到着", "r": "とうちゃく", "ko": "도착", "en": "arrival", "zh": "到达", "ex_ja": "飛行機が無事に到着した。", "ex_ko": "비행기가 무사히 도착했다.", "ex_en": "The plane arrived safely.", "ex_zh": "飞机平安到达了。"},
+        {"w": "荷物", "r": "にもつ", "ko": "짐", "en": "luggage", "zh": "行李", "ex_ja": "荷物が多くて大変だ。", "ex_ko": "짐이 많아서 힘들다.", "ex_en": "I have too much luggage, it is hard.", "ex_zh": "行李太多很辛苦。"},
+        {"w": "目的地", "r": "もくてきち", "ko": "목적지", "en": "destination", "zh": "目的地", "ex_ja": "目的地まであと一時間だ。", "ex_ko": "목적지까지 한 시간 남았다.", "ex_en": "It's one hour to the destination.", "ex_zh": "距离目的地还有一小时。"}
+      ]
+    },
+    {
+      "theme_ko": "자연·환경",
+      "theme_en": "Nature & Environment",
+      "theme_zh": "自然与环境",
+      "items": [
+        {"w": "環境", "r": "かんきょう", "ko": "환경", "en": "environment", "zh": "环境", "ex_ja": "環境を守る必要がある。", "ex_ko": "환경을 보호할 필요가 있다.", "ex_en": "We need to protect the environment.", "ex_zh": "需要保护环境。"},
+        {"w": "汚染", "r": "おせん", "ko": "오염", "en": "pollution", "zh": "污染", "ex_ja": "大気汚染が深刻だ。", "ex_ko": "대기 오염이 심각하다.", "ex_en": "Air pollution is serious.", "ex_zh": "大气污染很严重。"},
+        {"w": "地震", "r": "じしん", "ko": "지진", "en": "earthquake", "zh": "地震", "ex_ja": "昨夜、地震があった。", "ex_ko": "어젯밤 지진이 있었다.", "ex_en": "There was an earthquake last night.", "ex_zh": "昨晚发生了地震。"},
+        {"w": "台風", "r": "たいふう", "ko": "태풍", "en": "typhoon", "zh": "台风", "ex_ja": "台風が近づいている。", "ex_ko": "태풍이 접근하고 있다.", "ex_en": "A typhoon is approaching.", "ex_zh": "台风正在接近。"},
+        {"w": "気候", "r": "きこう", "ko": "기후", "en": "climate", "zh": "气候", "ex_ja": "気候の変化が著しい。", "ex_ko": "기후 변화가 두드러진다.", "ex_en": "Climate change is remarkable.", "ex_zh": "气候变化显著。"},
+        {"w": "森林", "r": "しんりん", "ko": "삼림", "en": "forest", "zh": "森林", "ex_ja": "森林の保護が大切だ。", "ex_ko": "삼림 보호가 중요하다.", "ex_en": "Forest protection is important.", "ex_zh": "保护森林很重要。"},
+        {"w": "資源", "r": "しげん", "ko": "자원", "en": "resources", "zh": "资源", "ex_ja": "資源を大切に使おう。", "ex_ko": "자원을 소중하게 사용하자.", "ex_en": "Let's use resources carefully.", "ex_zh": "让我们珍惜资源。"},
+        {"w": "節約", "r": "せつやく", "ko": "절약", "en": "saving, economizing", "zh": "节约", "ex_ja": "電気を節約する。", "ex_ko": "전기를 절약한다.", "ex_en": "I save electricity.", "ex_zh": "节约用电。"},
+        {"w": "リサイクル", "r": "りさいくる", "ko": "재활용", "en": "recycle", "zh": "回收", "ex_ja": "ペットボトルをリサイクルする。", "ex_ko": "페트병을 재활용한다.", "ex_en": "I recycle plastic bottles.", "ex_zh": "回收塑料瓶。"},
+        {"w": "災害", "r": "さいがい", "ko": "재해", "en": "disaster", "zh": "灾害", "ex_ja": "自然災害に備える。", "ex_ko": "자연재해에 대비한다.", "ex_en": "I prepare for natural disasters.", "ex_zh": "为自然灾害做准备。"}
+      ]
+    },
+    {
+      "theme_ko": "인간관계",
+      "theme_en": "Relationships",
+      "theme_zh": "人际关系",
+      "items": [
+        {"w": "友情", "r": "ゆうじょう", "ko": "우정", "en": "friendship", "zh": "友情", "ex_ja": "二人の友情は深い。", "ex_ko": "두 사람의 우정은 깊다.", "ex_en": "Their friendship is deep.", "ex_zh": "他们的友情很深厚。"},
+        {"w": "信頼", "r": "しんらい", "ko": "신뢰", "en": "trust", "zh": "信赖", "ex_ja": "信頼を築くのは時間がかかる。", "ex_ko": "신뢰를 쌓는 데는 시간이 걸린다.", "ex_en": "Building trust takes time.", "ex_zh": "建立信任需要时间。"},
+        {"w": "知り合い", "r": "しりあい", "ko": "아는 사람", "en": "acquaintance", "zh": "熟人", "ex_ja": "彼は古い知り合いだ。", "ex_ko": "그는 오랜 지인이다.", "ex_en": "He is an old acquaintance.", "ex_zh": "他是老熟人。"},
+        {"w": "恋人", "r": "こいびと", "ko": "연인", "en": "lover, partner", "zh": "恋人", "ex_ja": "恋人と映画を見た。", "ex_ko": "연인과 영화를 봤다.", "ex_en": "I watched a movie with my partner.", "ex_zh": "和恋人看了电影。"},
+        {"w": "結婚", "r": "けっこん", "ko": "결혼", "en": "marriage", "zh": "结婚", "ex_ja": "来月、結婚する予定だ。", "ex_ko": "다음 달에 결혼할 예정이다.", "ex_en": "I plan to get married next month.", "ex_zh": "下个月计划结婚。"},
+        {"w": "離婚", "r": "りこん", "ko": "이혼", "en": "divorce", "zh": "离婚", "ex_ja": "離婚率が上がっている。", "ex_ko": "이혼율이 올라가고 있다.", "ex_en": "The divorce rate is rising.", "ex_zh": "离婚率正在上升。"},
+        {"w": "夫婦", "r": "ふうふ", "ko": "부부", "en": "married couple", "zh": "夫妻", "ex_ja": "あの夫婦は仲がいい。", "ex_ko": "저 부부는 사이가 좋다.", "ex_en": "That couple gets along well.", "ex_zh": "那对夫妻关系很好。"},
+        {"w": "親戚", "r": "しんせき", "ko": "친척", "en": "relatives", "zh": "亲戚", "ex_ja": "正月に親戚が集まった。", "ex_ko": "설날에 친척이 모였다.", "ex_en": "Relatives gathered at New Year.", "ex_zh": "新年亲戚们聚在一起。"},
+        {"w": "近所", "r": "きんじょ", "ko": "이웃", "en": "neighborhood", "zh": "邻居", "ex_ja": "近所の人と挨拶する。", "ex_ko": "이웃 사람과 인사한다.", "ex_en": "I greet the neighbors.", "ex_zh": "和邻居打招呼。"},
+        {"w": "仲間", "r": "なかま", "ko": "동료", "en": "companion, friend", "zh": "伙伴", "ex_ja": "仕事の仲間と食事した。", "ex_ko": "직장 동료와 식사했다.", "ex_en": "I dined with work colleagues.", "ex_zh": "和工作伙伴一起吃饭。"}
+      ]
+    },
+    {
+      "theme_ko": "일상생활",
+      "theme_en": "Daily Life",
+      "theme_zh": "日常生活",
+      "items": [
+        {"w": "洗濯", "r": "せんたく", "ko": "세탁, 빨래", "en": "laundry", "zh": "洗衣", "ex_ja": "週末に洗濯をする。", "ex_ko": "주말에 빨래를 한다.", "ex_en": "I do laundry on weekends.", "ex_zh": "周末洗衣服。"},
+        {"w": "掃除", "r": "そうじ", "ko": "청소", "en": "cleaning", "zh": "打扫", "ex_ja": "部屋の掃除をした。", "ex_ko": "방 청소를 했다.", "ex_en": "I cleaned my room.", "ex_zh": "打扫了房间。"},
+        {"w": "料理", "r": "りょうり", "ko": "요리", "en": "cooking, cuisine", "zh": "做饭", "ex_ja": "母の料理は美味しい。", "ex_ko": "어머니의 요리는 맛있다.", "ex_en": "My mother's cooking is delicious.", "ex_zh": "妈妈做的饭很好吃。"},
+        {"w": "買い物", "r": "かいもの", "ko": "쇼핑", "en": "shopping", "zh": "购物", "ex_ja": "スーパーで買い物をする。", "ex_ko": "슈퍼에서 쇼핑을 한다.", "ex_en": "I shop at the supermarket.", "ex_zh": "在超市购物。"},
+        {"w": "家賃", "r": "やちん", "ko": "월세", "en": "rent", "zh": "房租", "ex_ja": "家賃が高すぎる。", "ex_ko": "월세가 너무 비싸다.", "ex_en": "The rent is too high.", "ex_zh": "房租太贵了。"},
+        {"w": "光熱費", "r": "こうねつひ", "ko": "공과금", "en": "utility bills", "zh": "水电费", "ex_ja": "冬は光熱費が増える。", "ex_ko": "겨울에는 공과금이 늘어난다.", "ex_en": "Utility bills go up in winter.", "ex_zh": "冬天水电费会增加。"},
+        {"w": "ゴミ", "r": "ごみ", "ko": "쓰레기", "en": "garbage", "zh": "垃圾", "ex_ja": "ゴミを分別する。", "ex_ko": "쓰레기를 분리수거한다.", "ex_en": "I separate the garbage.", "ex_zh": "对垃圾进行分类。"},
+        {"w": "家具", "r": "かぐ", "ko": "가구", "en": "furniture", "zh": "家具", "ex_ja": "新しい家具を買った。", "ex_ko": "새 가구를 샀다.", "ex_en": "I bought new furniture.", "ex_zh": "买了新家具。"},
+        {"w": "近所付き合い", "r": "きんじょづきあい", "ko": "이웃과의 교제", "en": "neighborly relations", "zh": "邻里往来", "ex_ja": "近所付き合いを大切にする。", "ex_ko": "이웃과의 교제를 소중히 한다.", "ex_en": "I value neighborly relations.", "ex_zh": "重视邻里往来。"},
+        {"w": "習慣", "r": "しゅうかん", "ko": "습관", "en": "habit, custom", "zh": "习惯", "ex_ja": "毎朝走るのが習慣だ。", "ex_ko": "매일 아침 달리는 것이 습관이다.", "ex_en": "Running every morning is my habit.", "ex_zh": "每天早上跑步是我的习惯。"}
+      ]
+    },
+    {
+      "theme_ko": "건강·신체",
+      "theme_en": "Health & Body",
+      "theme_zh": "健康与身体",
+      "items": [
+        {"w": "健康", "r": "けんこう", "ko": "건강", "en": "health", "zh": "健康", "ex_ja": "健康のために運動する。", "ex_ko": "건강을 위해 운동한다.", "ex_en": "I exercise for my health.", "ex_zh": "为了健康而运动。"},
+        {"w": "病気", "r": "びょうき", "ko": "병", "en": "illness", "zh": "疾病", "ex_ja": "病気になって入院した。", "ex_ko": "병이 나서 입원했다.", "ex_en": "I got sick and was hospitalized.", "ex_zh": "生病住院了。"},
+        {"w": "風邪", "r": "かぜ", "ko": "감기", "en": "cold", "zh": "感冒", "ex_ja": "風邪を引いてしまった。", "ex_ko": "감기에 걸리고 말았다.", "ex_en": "I caught a cold.", "ex_zh": "感冒了。"},
+        {"w": "怪我", "r": "けが", "ko": "부상", "en": "injury", "zh": "受伤", "ex_ja": "転んで怪我をした。", "ex_ko": "넘어져서 부상을 입었다.", "ex_en": "I fell and got injured.", "ex_zh": "摔倒受伤了。"},
+        {"w": "薬", "r": "くすり", "ko": "약", "en": "medicine", "zh": "药", "ex_ja": "毎日薬を飲む。", "ex_ko": "매일 약을 먹는다.", "ex_en": "I take medicine every day.", "ex_zh": "每天吃药。"},
+        {"w": "治療", "r": "ちりょう", "ko": "치료", "en": "treatment", "zh": "治疗", "ex_ja": "病院で治療を受ける。", "ex_ko": "병원에서 치료를 받는다.", "ex_en": "I receive treatment at the hospital.", "ex_zh": "在医院接受治疗。"},
+        {"w": "症状", "r": "しょうじょう", "ko": "증상", "en": "symptom", "zh": "症状", "ex_ja": "どんな症状ですか。", "ex_ko": "어떤 증상입니까?", "ex_en": "What are your symptoms?", "ex_zh": "有什么症状?"},
+        {"w": "睡眠", "r": "すいみん", "ko": "수면", "en": "sleep", "zh": "睡眠", "ex_ja": "十分な睡眠を取る。", "ex_ko": "충분한 수면을 취한다.", "ex_en": "I get enough sleep.", "ex_zh": "保证充足的睡眠。"},
+        {"w": "栄養", "r": "えいよう", "ko": "영양", "en": "nutrition", "zh": "营养", "ex_ja": "栄養のある食事をする。", "ex_ko": "영양가 있는 식사를 한다.", "ex_en": "I eat nutritious meals.", "ex_zh": "吃有营养的饭菜。"},
+        {"w": "疲労", "r": "ひろう", "ko": "피로", "en": "fatigue", "zh": "疲劳", "ex_ja": "疲労が溜まっている。", "ex_ko": "피로가 쌓여 있다.", "ex_en": "Fatigue has built up.", "ex_zh": "积累了疲劳。"}
+      ]
+    },
+    {
+      "theme_ko": "음식·문화",
+      "theme_en": "Food & Culture",
+      "theme_zh": "饮食与文化",
+      "items": [
+        {"w": "和食", "r": "わしょく", "ko": "일식", "en": "Japanese cuisine", "zh": "日本料理", "ex_ja": "和食は健康にいい。", "ex_ko": "일식은 건강에 좋다.", "ex_en": "Japanese food is healthy.", "ex_zh": "日本料理对健康有益。"},
+        {"w": "味", "r": "あじ", "ko": "맛", "en": "taste", "zh": "味道", "ex_ja": "このスープの味は最高だ。", "ex_ko": "이 수프의 맛은 최고다.", "ex_en": "This soup tastes amazing.", "ex_zh": "这汤的味道好极了。"},
+        {"w": "材料", "r": "ざいりょう", "ko": "재료", "en": "ingredients", "zh": "材料", "ex_ja": "材料を全部混ぜる。", "ex_ko": "재료를 전부 섞는다.", "ex_en": "Mix all the ingredients.", "ex_zh": "把所有材料混合。"},
+        {"w": "調味料", "r": "ちょうみりょう", "ko": "조미료", "en": "seasoning", "zh": "调味料", "ex_ja": "調味料を加える。", "ex_ko": "조미료를 더한다.", "ex_en": "Add the seasoning.", "ex_zh": "加入调味料。"},
+        {"w": "伝統", "r": "でんとう", "ko": "전통", "en": "tradition", "zh": "传统", "ex_ja": "日本の伝統文化を学ぶ。", "ex_ko": "일본의 전통문화를 배운다.", "ex_en": "I learn Japanese traditional culture.", "ex_zh": "学习日本传统文化。"},
+        {"w": "祭り", "r": "まつり", "ko": "축제", "en": "festival", "zh": "节日", "ex_ja": "夏祭りに行った。", "ex_ko": "여름 축제에 갔다.", "ex_en": "I went to the summer festival.", "ex_zh": "去了夏日祭典。"},
+        {"w": "礼儀", "r": "れいぎ", "ko": "예의", "en": "etiquette, manners", "zh": "礼仪", "ex_ja": "礼儀を守る。", "ex_ko": "예의를 지킨다.", "ex_en": "I observe the etiquette.", "ex_zh": "遵守礼仪。"},
+        {"w": "宗教", "r": "しゅうきょう", "ko": "종교", "en": "religion", "zh": "宗教", "ex_ja": "宗教について話し合う。", "ex_ko": "종교에 대해 이야기한다.", "ex_en": "We discuss religion.", "ex_zh": "讨论宗教。"},
+        {"w": "外食", "r": "がいしょく", "ko": "외식", "en": "eating out", "zh": "外出就餐", "ex_ja": "今日は外食しよう。", "ex_ko": "오늘은 외식하자.", "ex_en": "Let's eat out today.", "ex_zh": "今天去外面吃吧。"},
+        {"w": "食器", "r": "しょっき", "ko": "식기", "en": "tableware", "zh": "餐具", "ex_ja": "食器を洗う。", "ex_ko": "식기를 씻는다.", "ex_en": "I wash the dishes.", "ex_zh": "洗餐具。"}
+      ]
+    },
+    {
+      "theme_ko": "시간·일정",
+      "theme_en": "Time & Schedule",
+      "theme_zh": "时间与日程",
+      "items": [
+        {"w": "予定", "r": "よてい", "ko": "예정", "en": "plan, schedule", "zh": "预定", "ex_ja": "今週末の予定はある？", "ex_ko": "이번 주말 예정 있어?", "ex_en": "Do you have plans this weekend?", "ex_zh": "这周末有计划吗?"},
+        {"w": "締め切り", "r": "しめきり", "ko": "마감", "en": "deadline", "zh": "截止日期", "ex_ja": "明日が締め切りだ。", "ex_ko": "내일이 마감이다.", "ex_en": "The deadline is tomorrow.", "ex_zh": "明天是截止日期。"},
+        {"w": "期限", "r": "きげん", "ko": "기한", "en": "term, due date", "zh": "期限", "ex_ja": "期限を守ってください。", "ex_ko": "기한을 지켜 주세요.", "ex_en": "Please meet the deadline.", "ex_zh": "请遵守期限。"},
+        {"w": "瞬間", "r": "しゅんかん", "ko": "순간", "en": "moment", "zh": "瞬间", "ex_ja": "その瞬間を覚えている。", "ex_ko": "그 순간을 기억하고 있다.", "ex_en": "I remember that moment.", "ex_zh": "我记得那个瞬间。"},
+        {"w": "期間", "r": "きかん", "ko": "기간", "en": "period", "zh": "期间", "ex_ja": "夏休み期間中は忙しい。", "ex_ko": "여름방학 기간 중에는 바쁘다.", "ex_en": "I am busy during summer break.", "ex_zh": "暑假期间很忙。"},
+        {"w": "遅刻", "r": "ちこく", "ko": "지각", "en": "being late", "zh": "迟到", "ex_ja": "電車が遅れて遅刻した。", "ex_ko": "전철이 늦어 지각했다.", "ex_en": "The train was late so I was late.", "ex_zh": "电车晚点所以迟到了。"},
+        {"w": "急ぐ", "r": "いそぐ", "ko": "서두르다", "en": "to hurry", "zh": "赶紧", "ex_ja": "急がないと間に合わない。", "ex_ko": "서두르지 않으면 늦는다.", "ex_en": "If we don't hurry, we won't make it.", "ex_zh": "不快点就赶不上了。"},
+        {"w": "間に合う", "r": "まにあう", "ko": "시간에 맞추다", "en": "to be in time", "zh": "来得及", "ex_ja": "走れば間に合うかもしれない。", "ex_ko": "달리면 시간에 맞출지도 모른다.", "ex_en": "We might make it if we run.", "ex_zh": "跑的话也许来得及。"},
+        {"w": "延期", "r": "えんき", "ko": "연기", "en": "postponement", "zh": "延期", "ex_ja": "会議は来週に延期された。", "ex_ko": "회의는 다음 주로 연기되었다.", "ex_en": "The meeting was postponed to next week.", "ex_zh": "会议延期到下周。"},
+        {"w": "中止", "r": "ちゅうし", "ko": "중지", "en": "cancellation", "zh": "中止", "ex_ja": "雨で試合は中止になった。", "ex_ko": "비로 시합은 중지되었다.", "ex_en": "The match was canceled due to rain.", "ex_zh": "因雨比赛中止了。"}
+      ]
+    },
+    {
+      "theme_ko": "부사·접속어",
+      "theme_en": "Adverbs & Conjunctions",
+      "theme_zh": "副词与连接词",
+      "items": [
+        {"w": "結局", "r": "けっきょく", "ko": "결국", "en": "after all", "zh": "结果", "ex_ja": "結局、彼は来なかった。", "ex_ko": "결국 그는 오지 않았다.", "ex_en": "In the end, he didn't come.", "ex_zh": "结果他没来。"},
+        {"w": "ついに", "r": "ついに", "ko": "마침내", "en": "finally", "zh": "终于", "ex_ja": "ついに目標を達成した。", "ex_ko": "마침내 목표를 달성했다.", "ex_en": "I finally achieved my goal.", "ex_zh": "终于达成了目标。"},
+        {"w": "おそらく", "r": "おそらく", "ko": "아마", "en": "probably", "zh": "恐怕", "ex_ja": "おそらく彼は知らないだろう。", "ex_ko": "아마 그는 모를 것이다.", "ex_en": "He probably doesn't know.", "ex_zh": "恐怕他不知道吧。"},
+        {"w": "確かに", "r": "たしかに", "ko": "분명히", "en": "certainly", "zh": "确实", "ex_ja": "確かに彼の意見は正しい。", "ex_ko": "분명히 그의 의견은 옳다.", "ex_en": "His opinion is certainly correct.", "ex_zh": "他的意见确实正确。"},
+        {"w": "むしろ", "r": "むしろ", "ko": "오히려", "en": "rather", "zh": "反而", "ex_ja": "むしろ彼の方が悪い。", "ex_ko": "오히려 그가 더 나쁘다.", "ex_en": "Rather, he is the one at fault.", "ex_zh": "反而是他不好。"},
+        {"w": "せっかく", "r": "せっかく", "ko": "모처럼", "en": "with effort, taking the trouble", "zh": "难得", "ex_ja": "せっかく来たのに彼はいなかった。", "ex_ko": "모처럼 왔는데 그는 없었다.", "ex_en": "I took the trouble to come but he wasn't there.", "ex_zh": "难得来了他却不在。"},
+        {"w": "そのうえ", "r": "そのうえ", "ko": "게다가", "en": "in addition", "zh": "而且", "ex_ja": "雨が降り、そのうえ風も強い。", "ex_ko": "비가 오고, 게다가 바람도 강하다.", "ex_en": "It's raining, and in addition, the wind is strong.", "ex_zh": "下雨,而且风也很大。"},
+        {"w": "ところが", "r": "ところが", "ko": "그런데", "en": "however", "zh": "可是", "ex_ja": "勉強した。ところが試験に落ちた。", "ex_ko": "공부했다. 그런데 시험에 떨어졌다.", "ex_en": "I studied. However, I failed the exam.", "ex_zh": "我学习了,可是考试没通过。"},
+        {"w": "従って", "r": "したがって", "ko": "따라서", "en": "therefore", "zh": "因此", "ex_ja": "雨が強い、従って試合は中止だ。", "ex_ko": "비가 강하다. 따라서 시합은 중지다.", "ex_en": "The rain is heavy, therefore the match is canceled.", "ex_zh": "雨很大,因此比赛中止。"},
+        {"w": "ただし", "r": "ただし", "ko": "다만", "en": "however, provided that", "zh": "但是", "ex_ja": "参加無料。ただし予約が必要。", "ex_ko": "참가 무료. 다만 예약이 필요.", "ex_en": "Free to attend. However, reservation is required.", "ex_zh": "免费参加。但是需要预约。"}
+      ]
+    }
+  ],
+  "expressions": [
+    {"ja": "手を貸す", "r": "てをかす", "ko": "도움을 주다", "en": "to lend a hand", "zh": "帮一把", "ex_ja": "困っている人に手を貸す。", "ex_ko": "어려운 사람에게 도움을 준다.", "ex_en": "I lend a hand to those in trouble.", "ex_zh": "向有困难的人伸出援手。", "tip_ko": "직역하면 '손을 빌려준다'.", "tip_en": "Literally 'lend one's hand'.", "tip_zh": "直译为「借出手」。"},
+    {"ja": "目が高い", "r": "めがたかい", "ko": "안목이 높다", "en": "have a good eye", "zh": "眼光独到", "ex_ja": "彼女は目が高いので服のセンスが抜群だ。", "ex_ko": "그녀는 안목이 높아서 옷 센스가 뛰어나다.", "ex_en": "She has a good eye so her fashion sense is excellent.", "ex_zh": "她眼光独到,所以衣着品味出众。", "tip_ko": "사물을 보는 눈이 좋다는 의미.", "tip_en": "Means having good taste or judgment.", "tip_zh": "指鉴赏能力强。"},
+    {"ja": "気を配る", "r": "きをくばる", "ko": "신경 쓰다", "en": "to pay attention to, be considerate", "zh": "用心关怀", "ex_ja": "客に気を配るのが大切だ。", "ex_ko": "손님에게 신경 쓰는 것이 중요하다.", "ex_en": "It is important to be considerate of customers.", "ex_zh": "用心关照客人很重要。", "tip_ko": "주위에 마음을 쓰는 행동.", "tip_en": "To be attentive to surroundings.", "tip_zh": "对周围用心关注。"},
+    {"ja": "顔が広い", "r": "かおがひろい", "ko": "발이 넓다", "en": "to know many people", "zh": "交际广", "ex_ja": "彼は顔が広いから紹介してくれる。", "ex_ko": "그는 발이 넓어서 소개해 준다.", "ex_en": "He knows many people so he'll introduce them.", "ex_zh": "他交际广,会给你介绍人。", "tip_ko": "지인이 많다는 뜻.", "tip_en": "Means having many acquaintances.", "tip_zh": "指认识的人多。"},
+    {"ja": "口が堅い", "r": "くちがかたい", "ko": "입이 무겁다", "en": "to be discreet", "zh": "嘴严", "ex_ja": "彼は口が堅いから安心だ。", "ex_ko": "그는 입이 무거우니 안심이다.", "ex_en": "He is discreet so I feel at ease.", "ex_zh": "他嘴严,所以放心。", "tip_ko": "비밀을 잘 지킨다.", "tip_en": "Good at keeping secrets.", "tip_zh": "善于保守秘密。"},
+    {"ja": "頭が固い", "r": "あたまがかたい", "ko": "융통성이 없다", "en": "to be inflexible", "zh": "脑筋死板", "ex_ja": "上司は頭が固くて困る。", "ex_ko": "상사는 융통성이 없어서 곤란하다.", "ex_en": "My boss is inflexible and it's troublesome.", "ex_zh": "上司脑筋死板真伤脑筋。", "tip_ko": "사고가 굳어 있는 사람.", "tip_en": "Someone with rigid thinking.", "tip_zh": "指思维僵化的人。"},
+    {"ja": "腹が立つ", "r": "はらがたつ", "ko": "화가 나다", "en": "to get angry", "zh": "生气", "ex_ja": "彼の態度に腹が立った。", "ex_ko": "그의 태도에 화가 났다.", "ex_en": "I got angry at his attitude.", "ex_zh": "他的态度让我生气。", "tip_ko": "직역하면 '배가 선다'.", "tip_en": "Literally 'stomach stands up'.", "tip_zh": "直译为「肚子立起来」。"},
+    {"ja": "気が済む", "r": "きがすむ", "ko": "마음이 풀리다", "en": "to feel satisfied", "zh": "心满意足", "ex_ja": "謝ってもらわないと気が済まない。", "ex_ko": "사과받지 않으면 마음이 풀리지 않는다.", "ex_en": "I won't be satisfied unless he apologizes.", "ex_zh": "不道歉的话我心里过不去。", "tip_ko": "마음이 만족스럽다.", "tip_en": "To feel content.", "tip_zh": "内心满足。"},
+    {"ja": "気にする", "r": "きにする", "ko": "신경 쓰다", "en": "to mind, worry about", "zh": "在意", "ex_ja": "他人の目を気にする。", "ex_ko": "다른 사람의 시선을 신경 쓴다.", "ex_en": "I worry about other people's eyes.", "ex_zh": "在意别人的眼光。", "tip_ko": "걱정하거나 신경 쓰다.", "tip_en": "To worry or mind.", "tip_zh": "感到担心或在意。"},
+    {"ja": "気が利く", "r": "きがきく", "ko": "센스가 있다", "en": "to be thoughtful, considerate", "zh": "机灵贴心", "ex_ja": "彼女は気が利く人だ。", "ex_ko": "그녀는 센스 있는 사람이다.", "ex_en": "She is a thoughtful person.", "ex_zh": "她是个机灵贴心的人。", "tip_ko": "남의 마음을 잘 읽다.", "tip_en": "Good at reading others' needs.", "tip_zh": "善于体察他人。"},
+    {"ja": "話にならない", "r": "はなしにならない", "ko": "말도 안 된다", "en": "out of the question", "zh": "不像话", "ex_ja": "そんな提案は話にならない。", "ex_ko": "그런 제안은 말도 안 된다.", "ex_en": "Such a proposal is out of the question.", "ex_zh": "那种提议简直不像话。", "tip_ko": "고려할 가치도 없다.", "tip_en": "Not worth considering.", "tip_zh": "不值一谈。"},
+    {"ja": "見当が付く", "r": "けんとうがつく", "ko": "짐작이 가다", "en": "to have a rough idea", "zh": "心里有数", "ex_ja": "理由は大体見当が付く。", "ex_ko": "이유는 대충 짐작이 간다.", "ex_en": "I have a rough idea of the reason.", "ex_zh": "大概的理由心里有数。", "tip_ko": "대략 짐작할 수 있다.", "tip_en": "To estimate roughly.", "tip_zh": "可以大致估计。"},
+    {"ja": "骨が折れる", "r": "ほねがおれる", "ko": "수고스럽다", "en": "to be hard work", "zh": "费力", "ex_ja": "この仕事は骨が折れる。", "ex_ko": "이 일은 수고스럽다.", "ex_en": "This work is hard.", "ex_zh": "这工作很费力。", "tip_ko": "직역하면 '뼈가 부러진다'.", "tip_en": "Literally 'bones break'.", "tip_zh": "直译为「骨头折断」。"},
+    {"ja": "猫の手も借りたい", "r": "ねこのてもかりたい", "ko": "고양이 손이라도 빌리고 싶다", "en": "extremely busy", "zh": "忙得不可开交", "ex_ja": "年末は猫の手も借りたいほど忙しい。", "ex_ko": "연말은 고양이 손이라도 빌리고 싶을 정도로 바쁘다.", "ex_en": "Year-end is so busy I'd borrow a cat's paw.", "ex_zh": "年底忙得连猫的爪子都想借。", "tip_ko": "엄청 바쁠 때 쓰는 표현.", "tip_en": "Used when extremely busy.", "tip_zh": "非常忙时使用。"},
+    {"ja": "肩を持つ", "r": "かたをもつ", "ko": "편을 들다", "en": "to take someone's side", "zh": "袒护", "ex_ja": "彼はいつも弟の肩を持つ。", "ex_ko": "그는 항상 동생 편을 든다.", "ex_en": "He always takes his brother's side.", "ex_zh": "他总是袒护弟弟。", "tip_ko": "어떤 사람을 지지하다.", "tip_en": "To support someone.", "tip_zh": "支持某人。"},
+    {"ja": "足を引っ張る", "r": "あしをひっぱる", "ko": "발목을 잡다", "en": "to hold back", "zh": "拖后腿", "ex_ja": "チームの足を引っ張りたくない。", "ex_ko": "팀의 발목을 잡고 싶지 않다.", "ex_en": "I don't want to hold back the team.", "ex_zh": "我不想拖团队的后腿。", "tip_ko": "타인의 성공을 방해한다.", "tip_en": "To hinder others' success.", "tip_zh": "妨碍他人成功。"},
+    {"ja": "腕を磨く", "r": "うでをみがく", "ko": "실력을 갈고닦다", "en": "to polish one's skills", "zh": "磨练本领", "ex_ja": "料理の腕を磨いている。", "ex_ko": "요리 실력을 갈고닦고 있다.", "ex_en": "I'm polishing my cooking skills.", "ex_zh": "正在磨练厨艺。", "tip_ko": "기술이나 솜씨를 연마.", "tip_en": "To hone skills.", "tip_zh": "锻炼技能。"},
+    {"ja": "胸が痛む", "r": "むねがいたむ", "ko": "마음이 아프다", "en": "to feel pain (emotionally)", "zh": "心痛", "ex_ja": "その話を聞いて胸が痛む。", "ex_ko": "그 이야기를 듣고 마음이 아프다.", "ex_en": "Hearing that story pains my heart.", "ex_zh": "听到那件事我很心痛。", "tip_ko": "감정적 고통을 표현.", "tip_en": "Expresses emotional pain.", "tip_zh": "表达情感上的痛苦。"},
+    {"ja": "目を通す", "r": "めをとおす", "ko": "훑어보다", "en": "to look through", "zh": "过目", "ex_ja": "資料に目を通しておく。", "ex_ko": "자료를 훑어 둔다.", "ex_en": "I'll look through the materials.", "ex_zh": "事先过目一下资料。", "tip_ko": "대충 읽어 보다.", "tip_en": "To scan quickly.", "tip_zh": "粗略浏览。"},
+    {"ja": "話に花が咲く", "r": "はなしにはながさく", "ko": "이야기꽃이 피다", "en": "conversation flourishes", "zh": "谈得热火朝天", "ex_ja": "昔の友達と話に花が咲いた。", "ex_ko": "옛 친구와 이야기꽃이 피었다.", "ex_en": "Conversation flourished with old friends.", "ex_zh": "和老朋友谈得热火朝天。", "tip_ko": "대화가 활기차게 이어진다.", "tip_en": "Lively conversation.", "tip_zh": "对话热烈。"},
+    {"ja": "途方に暮れる", "r": "とほうにくれる", "ko": "어찌할 바를 모르다", "en": "to be at a loss", "zh": "走投无路", "ex_ja": "突然の知らせに途方に暮れた。", "ex_ko": "갑작스러운 소식에 어찌할 바를 몰랐다.", "ex_en": "I was at a loss at the sudden news.", "ex_zh": "突然的消息让我不知所措。", "tip_ko": "방법을 찾지 못해 곤란하다.", "tip_en": "Unable to find a solution.", "tip_zh": "找不到办法而困惑。"},
+    {"ja": "手間がかかる", "r": "てまがかかる", "ko": "손이 많이 가다", "en": "takes effort", "zh": "费工夫", "ex_ja": "この料理は手間がかかる。", "ex_ko": "이 요리는 손이 많이 간다.", "ex_en": "This dish takes a lot of effort.", "ex_zh": "这道菜很费工夫。", "tip_ko": "시간과 노력이 필요하다.", "tip_en": "Requires time and effort.", "tip_zh": "需要时间和精力。"},
+    {"ja": "気が向く", "r": "きがむく", "ko": "마음이 내키다", "en": "to feel like doing", "zh": "有兴致", "ex_ja": "気が向いたら来てください。", "ex_ko": "마음이 내키면 와 주세요.", "ex_en": "Come if you feel like it.", "ex_zh": "有兴致就来吧。", "tip_ko": "기분이 내키다.", "tip_en": "To be in the mood.", "tip_zh": "有心情做。"},
+    {"ja": "頭を抱える", "r": "あたまをかかえる", "ko": "골머리를 앓다", "en": "to be at one's wit's end", "zh": "伤透脑筋", "ex_ja": "予算問題で頭を抱えている。", "ex_ko": "예산 문제로 골머리를 앓고 있다.", "ex_en": "I'm at my wit's end over budget issues.", "ex_zh": "为预算问题伤透了脑筋。", "tip_ko": "고민에 빠진 모습.", "tip_en": "Deep in trouble.", "tip_zh": "陷入苦恼。"},
+    {"ja": "手が空く", "r": "てがあく", "ko": "손이 비다", "en": "to be free", "zh": "有空", "ex_ja": "手が空いたら手伝って。", "ex_ko": "손이 비면 도와줘.", "ex_en": "Help me when you're free.", "ex_zh": "有空时帮帮忙。", "tip_ko": "일이 없어 여유가 있다.", "tip_en": "Free from tasks.", "tip_zh": "没事可做。"},
+    {"ja": "口を出す", "r": "くちをだす", "ko": "참견하다", "en": "to butt in", "zh": "插嘴", "ex_ja": "他人のことに口を出さないで。", "ex_ko": "남의 일에 참견하지 마.", "ex_en": "Don't butt in on others' affairs.", "ex_zh": "不要插嘴别人的事。", "tip_ko": "쓸데없이 말참견하다.", "tip_en": "To meddle.", "tip_zh": "多管闲事。"},
+    {"ja": "気が長い", "r": "きがながい", "ko": "느긋하다", "en": "patient, easygoing", "zh": "性子慢", "ex_ja": "彼は気が長い人だ。", "ex_ko": "그는 느긋한 사람이다.", "ex_en": "He is an easygoing person.", "ex_zh": "他是个慢性子。", "tip_ko": "성격이 너그럽고 참을성 있음.", "tip_en": "Patient by nature.", "tip_zh": "性格有耐心。"},
+    {"ja": "気が短い", "r": "きがみじかい", "ko": "성격이 급하다", "en": "short-tempered", "zh": "急性子", "ex_ja": "気が短いから待てない。", "ex_ko": "성격이 급해서 못 기다린다.", "ex_en": "I'm short-tempered, can't wait.", "ex_zh": "急性子等不了。", "tip_ko": "참을성이 부족한 성격.", "tip_en": "Lacking patience.", "tip_zh": "没有耐性。"},
+    {"ja": "息を呑む", "r": "いきをのむ", "ko": "숨을 죽이다", "en": "to gasp", "zh": "屏息", "ex_ja": "美しさに息を呑んだ。", "ex_ko": "아름다움에 숨을 죽였다.", "ex_en": "I gasped at the beauty.", "ex_zh": "美得让人屏息。", "tip_ko": "감탄·놀람의 표현.", "tip_en": "Expresses awe or shock.", "tip_zh": "表达惊叹。"},
+    {"ja": "鼻が高い", "r": "はながたかい", "ko": "코가 높다, 자랑스럽다", "en": "to feel proud", "zh": "自豪", "ex_ja": "息子の成功で鼻が高い。", "ex_ko": "아들의 성공으로 자랑스럽다.", "ex_en": "I feel proud of my son's success.", "ex_zh": "为儿子的成功感到自豪。", "tip_ko": "자랑스러워 어깨가 으쓱하다.", "tip_en": "To feel proud.", "tip_zh": "感到自豪。"},
+    {"ja": "馬が合う", "r": "うまがあう", "ko": "마음이 맞다", "en": "to get along well", "zh": "合得来", "ex_ja": "彼とは馬が合う。", "ex_ko": "그와는 마음이 잘 맞는다.", "ex_en": "I get along well with him.", "ex_zh": "和他很合得来。", "tip_ko": "직역하면 '말이 맞는다'.", "tip_en": "Literally 'horses match'.", "tip_zh": "直译为「马合得来」。"},
+    {"ja": "腰が低い", "r": "こしがひくい", "ko": "겸손하다", "en": "humble, modest", "zh": "谦逊", "ex_ja": "腰が低くて好感が持てる。", "ex_ko": "겸손해서 호감이 간다.", "ex_en": "He's humble, so likable.", "ex_zh": "谦逊有礼讨人喜欢。", "tip_ko": "태도가 정중하다.", "tip_en": "Modest in attitude.", "tip_zh": "态度谦恭。"}
+  ],
+  "grammar": [
+    {"title": "〜にとって", "meaning_ko": "〜에게 있어서", "meaning_en": "for, from the viewpoint of", "meaning_zh": "对于…来说", "ex_ja": "私にとって家族が一番大切です。", "ex_ko": "나에게 있어서 가족이 가장 소중하다.", "ex_en": "For me, family is the most important.", "ex_zh": "对我来说家人最重要。", "note_ko": "사람·입장을 나타냄.", "note_en": "Indicates perspective.", "note_zh": "表达立场或观点。"},
+    {"title": "〜にしては", "meaning_ko": "〜치고는", "meaning_en": "for, considering", "meaning_zh": "作为…来说", "ex_ja": "新人にしては仕事が早い。", "ex_ko": "신입치고는 일이 빠르다.", "ex_en": "Fast worker for a newbie.", "ex_zh": "作为新人来说工作很快。", "note_ko": "예상과 다른 결과를 표현.", "note_en": "Expresses unexpected result.", "note_zh": "表示与预期不同。"},
+    {"title": "〜とともに", "meaning_ko": "〜와 함께, 〜와 동시에", "meaning_en": "together with, as", "meaning_zh": "随着…", "ex_ja": "時代の変化とともに価値観も変わる。", "ex_ko": "시대의 변화와 함께 가치관도 변한다.", "ex_en": "Values change along with the times.", "ex_zh": "随着时代变化价值观也在变。", "note_ko": "변화의 동반·동시 발생.", "note_en": "Co-occurrence of change.", "note_zh": "同步发生的变化。"},
+    {"title": "〜くせに", "meaning_ko": "〜인 주제에", "meaning_en": "even though, despite", "meaning_zh": "明明…却", "ex_ja": "知らないくせに偉そうに言う。", "ex_ko": "모르는 주제에 잘난 듯 말한다.", "ex_en": "He talks big though he doesn't know.", "ex_zh": "明明不知道却说得很自大。", "note_ko": "비난의 뉘앙스 포함.", "note_en": "Contains nuance of criticism.", "note_zh": "含有指责语气。"},
+    {"title": "〜ものの", "meaning_ko": "〜이지만, 〜이긴 하지만", "meaning_en": "although", "meaning_zh": "虽然…但是", "ex_ja": "免許は取ったものの、運転しない。", "ex_ko": "면허는 땄지만 운전은 하지 않는다.", "ex_en": "Although I got my license, I don't drive.", "ex_zh": "虽然取得了驾照,但不开车。", "note_ko": "사실은 인정하나 결과는 다름.", "note_en": "Acknowledges fact but result differs.", "note_zh": "承认事实但结果不同。"},
+    {"title": "〜どころか", "meaning_ko": "〜은커녕", "meaning_en": "far from, let alone", "meaning_zh": "别说…就连", "ex_ja": "返事どころか連絡もない。", "ex_ko": "답장은커녕 연락도 없다.", "ex_en": "Not even a message, let alone a reply.", "ex_zh": "别说回信,连联系都没有。", "note_ko": "예상과 정반대 강조.", "note_en": "Emphasizes opposite of expected.", "note_zh": "强调与预期相反。"},
+    {"title": "〜ばかりか", "meaning_ko": "〜뿐만 아니라", "meaning_en": "not only, but also", "meaning_zh": "不仅…而且", "ex_ja": "成績ばかりか性格もいい。", "ex_ko": "성적뿐만 아니라 성격도 좋다.", "ex_en": "Not only grades, but also personality is good.", "ex_zh": "不仅成绩好,性格也好。", "note_ko": "추가 정보를 더할 때.", "note_en": "Adds further information.", "note_zh": "用于追加信息。"},
+    {"title": "〜にもかかわらず", "meaning_ko": "〜에도 불구하고", "meaning_en": "despite, in spite of", "meaning_zh": "尽管…", "ex_ja": "雨にもかかわらず試合は続いた。", "ex_ko": "비에도 불구하고 시합은 계속됐다.", "ex_en": "Despite the rain, the match continued.", "ex_zh": "尽管下雨比赛仍在继续。", "note_ko": "역접의 강한 형태.", "note_en": "Strong contrastive form.", "note_zh": "强烈的转折形式。"},
+    {"title": "〜にすぎない", "meaning_ko": "〜에 불과하다", "meaning_en": "merely, no more than", "meaning_zh": "不过是…", "ex_ja": "これは個人の意見にすぎない。", "ex_ko": "이것은 개인의 의견에 불과하다.", "ex_en": "This is merely a personal opinion.", "ex_zh": "这不过是个人意见。", "note_ko": "한정·축소의 의미.", "note_en": "Limitation/diminishment.", "note_zh": "表示限定。"},
+    {"title": "〜に違いない", "meaning_ko": "〜임에 틀림없다", "meaning_en": "must be, no doubt", "meaning_zh": "一定是…", "ex_ja": "彼は来ないに違いない。", "ex_ko": "그는 오지 않을 것임에 틀림없다.", "ex_en": "He must not be coming.", "ex_zh": "他一定不会来。", "note_ko": "확신의 표현.", "note_en": "Expression of conviction.", "note_zh": "表达确信。"},
+    {"title": "〜わけがない", "meaning_ko": "〜일 리가 없다", "meaning_en": "there's no way", "meaning_zh": "不可能…", "ex_ja": "彼が嘘をつくわけがない。", "ex_ko": "그가 거짓말할 리가 없다.", "ex_en": "There's no way he'd lie.", "ex_zh": "他不可能说谎。", "note_ko": "강한 부정의 추측.", "note_en": "Strong negative inference.", "note_zh": "强烈的否定推测。"},
+    {"title": "〜わけではない", "meaning_ko": "〜인 것은 아니다", "meaning_en": "it's not that", "meaning_zh": "并不是…", "ex_ja": "嫌いなわけではない。", "ex_ko": "싫은 것은 아니다.", "ex_en": "It's not that I dislike it.", "ex_zh": "并不是讨厌。", "note_ko": "부분 부정에 사용.", "note_en": "Used for partial negation.", "note_zh": "用于部分否定。"},
+    {"title": "〜以上は", "meaning_ko": "〜인 이상은", "meaning_en": "now that, since", "meaning_zh": "既然…就", "ex_ja": "約束した以上は守るべきだ。", "ex_ko": "약속한 이상은 지켜야 한다.", "ex_en": "Since you promised, you should keep it.", "ex_zh": "既然约定了就该遵守。", "note_ko": "강한 의무의 표현.", "note_en": "Strong sense of obligation.", "note_zh": "表达强烈义务。"},
+    {"title": "〜上で", "meaning_ko": "〜한 후에, 〜한 다음에", "meaning_en": "after, upon", "meaning_zh": "在…基础上", "ex_ja": "よく考えた上で決める。", "ex_ko": "잘 생각한 후에 결정한다.", "ex_en": "I'll decide after thinking carefully.", "ex_zh": "在仔细考虑后再决定。", "note_ko": "동작 후 다음 단계로.", "note_en": "Indicates sequence after action.", "note_zh": "表示行动后的步骤。"},
+    {"title": "〜次第", "meaning_ko": "〜하는 대로", "meaning_en": "as soon as, depending on", "meaning_zh": "一…就", "ex_ja": "到着次第連絡します。", "ex_ko": "도착하는 대로 연락하겠습니다.", "ex_en": "I'll contact you as soon as I arrive.", "ex_zh": "一到就联系。", "note_ko": "직후의 행동을 나타냄.", "note_en": "Indicates immediate next action.", "note_zh": "表示紧接着的动作。"},
+    {"title": "〜さえ〜ば", "meaning_ko": "〜만 〜하면", "meaning_en": "if only", "meaning_zh": "只要…就", "ex_ja": "君さえいれば幸せだ。", "ex_ko": "너만 있으면 행복하다.", "ex_en": "If only you are here, I'm happy.", "ex_zh": "只要有你我就幸福。", "note_ko": "유일한 조건 강조.", "note_en": "Emphasizes sole condition.", "note_zh": "强调唯一条件。"},
+    {"title": "〜こそ", "meaning_ko": "〜야말로", "meaning_en": "the very, precisely", "meaning_zh": "正是", "ex_ja": "今こそチャンスだ。", "ex_ko": "지금이야말로 기회다.", "ex_en": "Now is the very chance.", "ex_zh": "现在正是机会。", "note_ko": "강조의 조사.", "note_en": "Emphatic particle.", "note_zh": "强调助词。"},
+    {"title": "〜あまり", "meaning_ko": "너무 〜한 나머지", "meaning_en": "so much that", "meaning_zh": "由于过度…", "ex_ja": "驚きのあまり声が出なかった。", "ex_ko": "너무 놀란 나머지 소리가 나오지 않았다.", "ex_en": "I was so surprised I couldn't speak.", "ex_zh": "因为太惊讶发不出声音。", "note_ko": "감정의 정도가 매우 강함.", "note_en": "Extreme degree of emotion.", "note_zh": "表达极度情感。"},
+    {"title": "〜とはいえ", "meaning_ko": "〜라고는 해도", "meaning_en": "although, even so", "meaning_zh": "虽说…", "ex_ja": "春とはいえ、まだ寒い。", "ex_ko": "봄이라고는 해도 아직 춥다.", "ex_en": "Although it's spring, it's still cold.", "ex_zh": "虽说是春天还是冷。", "note_ko": "양보의 표현.", "note_en": "Concessive expression.", "note_zh": "让步表达。"},
+    {"title": "〜たとたん", "meaning_ko": "〜한 순간, 〜하자마자", "meaning_en": "the moment, as soon as", "meaning_zh": "一…就", "ex_ja": "ドアを開けたとたん猫が出てきた。", "ex_ko": "문을 연 순간 고양이가 나왔다.", "ex_en": "The moment I opened the door, the cat came out.", "ex_zh": "一打开门猫就出来了。", "note_ko": "예상치 못한 일이 일어남.", "note_en": "Unexpected immediate event.", "note_zh": "意外的紧接事件。"},
+    {"title": "〜ことになっている", "meaning_ko": "〜하기로 되어 있다", "meaning_en": "supposed to, the rule is", "meaning_zh": "规定为…", "ex_ja": "9時に集合することになっている。", "ex_ko": "9시에 집합하기로 되어 있다.", "ex_en": "We are supposed to gather at 9.", "ex_zh": "规定9点集合。", "note_ko": "규칙·약속을 나타냄.", "note_en": "Indicates rule/agreement.", "note_zh": "表达规则或约定。"},
+    {"title": "〜ようがない", "meaning_ko": "〜할 방법이 없다", "meaning_en": "no way to", "meaning_zh": "无法…", "ex_ja": "連絡しようがない。", "ex_ko": "연락할 방법이 없다.", "ex_en": "There's no way to contact.", "ex_zh": "无法联系。", "note_ko": "수단이 전혀 없음.", "note_en": "Indicates no means.", "note_zh": "表示完全没有方法。"},
+    {"title": "〜きり", "meaning_ko": "〜한 채로, 〜뿐", "meaning_en": "only, since", "meaning_zh": "只…", "ex_ja": "一度会ったきり連絡がない。", "ex_ko": "한 번 만난 뒤로 연락이 없다.", "ex_en": "I haven't heard from him since we met once.", "ex_zh": "见过一次面后就没联系了。", "note_ko": "지속·한정의 의미.", "note_en": "Continuation/limitation.", "note_zh": "持续或限定。"},
+    {"title": "〜得る", "meaning_ko": "〜할 수 있다", "meaning_en": "possible to", "meaning_zh": "可能…", "ex_ja": "誰にでも起こり得ることだ。", "ex_ko": "누구에게나 일어날 수 있는 일이다.", "ex_en": "It's something that can happen to anyone.", "ex_zh": "对谁都可能发生。", "note_ko": "가능성을 나타냄.", "note_en": "Indicates possibility.", "note_zh": "表示可能性。"},
+    {"title": "〜ざるを得ない", "meaning_ko": "〜하지 않을 수 없다", "meaning_en": "have no choice but to", "meaning_zh": "不得不…", "ex_ja": "認めざるを得ない事実だ。", "ex_ko": "인정하지 않을 수 없는 사실이다.", "ex_en": "It's a fact we have no choice but to admit.", "ex_zh": "这是不得不承认的事实。", "note_ko": "필연·강제의 표현.", "note_en": "Inevitability/compulsion.", "note_zh": "表示必然或强制。"},
+    {"title": "〜に応じて", "meaning_ko": "〜에 따라", "meaning_en": "according to", "meaning_zh": "根据…", "ex_ja": "状況に応じて対応する。", "ex_ko": "상황에 따라 대응한다.", "ex_en": "I respond according to the situation.", "ex_zh": "根据情况应对。", "note_ko": "상응·대응의 의미.", "note_en": "Correspondence to condition.", "note_zh": "对应条件。"},
+    {"title": "〜に比べて", "meaning_ko": "〜에 비해", "meaning_en": "compared to", "meaning_zh": "与…相比", "ex_ja": "去年に比べて売上が伸びた。", "ex_ko": "작년에 비해 매출이 늘었다.", "ex_en": "Sales increased compared to last year.", "ex_zh": "与去年相比销售额增长了。", "note_ko": "비교 대상을 명시.", "note_en": "Specifies object of comparison.", "note_zh": "明示比较对象。"}
+  ],
+  "tips": [
+    {"title_ko": "한자의 음독·훈독 구분", "title_en": "On'yomi vs Kun'yomi", "title_zh": "音读与训读的区分", "body_ko": "N2에서는 한 한자의 여러 읽기를 외워야 한다. 단어 단위로 묶어 외우면 효율적이다.", "body_en": "At N2, you must know multiple readings per kanji. Memorize by word for efficiency.", "body_zh": "N2需要掌握一个汉字的多种读法。按词汇整体记忆更有效率。"},
+    {"title_ko": "유사 문법 비교 학습", "title_en": "Compare Similar Grammar", "title_zh": "对比相似语法", "body_ko": "「〜ものの」와 「〜のに」, 「〜にとって」와 「〜について」 등 헷갈리는 표현은 예문으로 차이를 익히자.", "body_en": "For confusing pairs like 〜ものの/〜のに, learn the differences through example sentences.", "body_zh": "「〜ものの」与「〜のに」等易混淆的表达,通过例句学习差异。"},
+    {"title_ko": "독해 시간 분배", "title_en": "Manage Reading Time", "title_zh": "阅读时间分配", "body_ko": "독해는 시간이 가장 부족한 영역. 장문을 먼저가 아닌 짧은 글부터 풀어 시간을 확보하자.", "body_en": "Reading is the most time-pressed section. Tackle short passages first to bank time.", "body_zh": "阅读是最容易时间不足的部分。先做短文以争取时间。"},
+    {"title_ko": "청해, 키워드 듣기", "title_en": "Listening: Catch Keywords", "title_zh": "听力:抓关键词", "body_ko": "전체를 다 이해하려 하지 말고 의문사·숫자·시간 등 핵심어를 메모하자.", "body_en": "Don't try to understand everything; jot down question words, numbers, times.", "body_zh": "不要试图听懂全部,只记下疑问词、数字、时间等核心词。"},
+    {"title_ko": "어휘는 문맥으로", "title_en": "Learn Vocab in Context", "title_zh": "在语境中记词汇", "body_ko": "단어 하나만 외우지 말고 예문·콜로케이션으로 외워야 실전에 쓸 수 있다.", "body_en": "Don't just memorize words; learn them with sentences and collocations to use in real situations.", "body_zh": "不要只背单词,要结合例句和搭配学习,才能实际运用。"},
+    {"title_ko": "관용표현은 신체어 중심", "title_en": "Idioms Use Body Parts", "title_zh": "惯用语多用身体部位", "body_ko": "目, 手, 口, 頭 등 신체어가 들어간 관용표현이 자주 출제된다. 그룹으로 묶어 학습하자.", "body_en": "Many tested idioms use body parts like 目, 手, 口, 頭. Study them in groups.", "body_zh": "目、手、口、头等身体部位的惯用语常考。分组学习。"},
+    {"title_ko": "오답노트 활용", "title_en": "Use a Mistake Notebook", "title_zh": "使用错题本", "body_ko": "틀린 문제는 반드시 정리하고 일주일 후 다시 풀어 약점을 보강하자.", "body_en": "Always log mistakes and redo them after a week to reinforce weak points.", "body_zh": "做错的题一定要整理,一周后重做以强化弱点。"},
+    {"title_ko": "매일 일본어 노출", "title_en": "Daily Japanese Exposure", "title_zh": "每天接触日语", "body_ko": "뉴스, 드라마, 팟캐스트 등 다양한 매체로 매일 일본어를 접하면 청해와 어휘에 큰 도움이 된다.", "body_en": "Daily contact via news, dramas, podcasts greatly helps listening and vocabulary.", "body_zh": "每天通过新闻、电视剧、播客等接触日语,对听力和词汇大有帮助。"}
+  ]
+}
